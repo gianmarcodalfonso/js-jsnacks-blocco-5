@@ -11,11 +11,11 @@ const zucchine = [
   { type: 'Calabrese', weight: 14, length: 4 },
 ];
 
-const bigZucchine = zucchine.filter(i => i.length >= 15 )
+const bigZucchine = zucchine.filter(item => item.length >= 15 )
 
 console.log(bigZucchine)
 
-const smZucchine = zucchine.filter(i => i.length < 15 )
+const smZucchine = zucchine.filter(item => item.length < 15 )
 
 console.log(smZucchine)
 

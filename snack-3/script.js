@@ -1,7 +1,7 @@
 const numbers = [2, 8, 4, 7, 2, 87];
 
 
-const newArray = numbers.map( i => i + 1)
+const newArray = numbers.map( num => num + 1)
 
 console.log(newArray)
 // Crea un nuovo array in cui tutti i numeri siano incrementati di 1

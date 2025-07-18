@@ -19,7 +19,7 @@ const students = [
   },
 ];
 
-const student2 = students.find(i => i.id === 2)
+const student2 = students.find(student => student.id === 2)
 
 console.log(student2)
 
